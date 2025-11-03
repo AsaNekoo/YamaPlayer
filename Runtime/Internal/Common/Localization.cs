@@ -67,7 +67,7 @@ namespace Yamadev.YamaStream
                 case "Tokyo Standard Time":
                     return "ja";
                 case "Taipei Standard Time":
-                    return "zh-TW";
+                    return "zh-HK";
                 case "China Standard Time":
                     return "zh-CN";
                 case "Korea Standard Time":

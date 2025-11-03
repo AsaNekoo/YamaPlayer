@@ -603,7 +603,7 @@ namespace Yamadev.YamaStream.UI
         public void SetLanguageAuto() => SetLanguage(null);
         public void SetLanguageJapanese() => SetLanguage("ja");
         public void SetLanguageChineseChina() => SetLanguage("zh-CN");
-        public void SetLanguageChineseTaiwan() => SetLanguage("zh-TW");
+        public void SetLanguageChineseTaiwan() => SetLanguage("zh-HK");
         public void SetLanguageKorean() => SetLanguage("ko");
         public void SetLanguageEnglish() =>SetLanguage("en");
         public void SetLanguageSpanish() => SetLanguage("es");
