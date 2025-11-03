@@ -113,6 +113,7 @@ namespace Yamadev.YamaStream
         public void RunForward()
         {
             if (IsPlaying || IsLoading) return;
+            _queue.TakeOwnership();
             Forward();
         }
 

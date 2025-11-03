@@ -533,6 +533,7 @@ namespace Yamadev.YamaStream.UI
         {
             if (!CheckPermission()) return;
             _controller.TakeOwnership();
+            _controller.Queue.TakeOwnership();
             if (_controller.SlideMode) _controller.SetPage(_controller.SlidePage + 1);
             else _controller.Forward();
         }
@@ -600,13 +601,13 @@ namespace Yamadev.YamaStream.UI
         public void SetMaxResolution4320() => _controller.MaxResolution = 4320;
 
         public void SetLanguageAuto() => SetLanguage(null);
-        public void SetLanguageJapanese() => SetLanguage("ja-JP");
+        public void SetLanguageJapanese() => SetLanguage("ja");
         public void SetLanguageChineseChina() => SetLanguage("zh-CN");
-        public void SetLanguageChineseTaiwan() => SetLanguage("zh-TW");
-        public void SetLanguageKorean() => SetLanguage("ko-KR");
-        public void SetLanguageEnglish() =>SetLanguage("en-US");
-        public void SetLanguageSpanish() => SetLanguage("es-CL");
-        public void SetLanguageUkranian() => SetLanguage("uk-UA");
+        public void SetLanguageChineseTaiwan() => SetLanguage("zh-HK");
+        public void SetLanguageKorean() => SetLanguage("ko");
+        public void SetLanguageEnglish() =>SetLanguage("en");
+        public void SetLanguageSpanish() => SetLanguage("es");
+        public void SetLanguageUkranian() => SetLanguage("uk");
 
         public void SetLanguage(string language)
         {

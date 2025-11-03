@@ -1,5 +1,5 @@
 {
-    "ja-JP": {
+    "ja": {
         "options": "オプション",
         "settings": "設定",
         "general": "全般",
@@ -98,7 +98,7 @@
         "moveDown": "下へ移動",
         "remove": "削除"
     },
-    "en-US": {
+    "en": {
         "options": "Options",
         "settings": "Settings",
         "general": "General",
@@ -296,7 +296,7 @@
         "moveDown": "向下移动",
         "remove": "移除"
     },
-    "zh-TW": {
+    "zh-HK": {
         "options": "選項",
         "settings": "設定",
         "settingsTitle": "控制台",
@@ -395,7 +395,7 @@
         "moveDown": "往下移動",
         "remove": "刪除"
     },
-    "ko-KR": {
+    "ko": {
         "options": "옵션",
         "settings": "설정",
         "settingsTitle": "설정",
@@ -494,7 +494,7 @@
         "moveDown": "아래로 이동",
         "remove": "삭제"
     },
-    "es-CL": {
+    "es": {
         "options": "Opciones",
         "settings": "Configuración",
         "general": "General",
@@ -593,7 +593,7 @@
         "moveDown": "Mover hacia abajo",
         "remove": "Eliminar"
     },
-    "uk-UA": {
+    "uk": {
         "options": "Опції",
         "settings": "Налаштування",
         "general": "Головна",
